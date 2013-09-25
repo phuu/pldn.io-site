@@ -6,13 +6,17 @@
 
 /* Global Reset */
 * {
-  margin: 0;
-  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body { height: 100%; }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: #FFF;
   font: 16px/1.5 "Ratio", sans-serif;
   text-align: center;
@@ -26,7 +30,7 @@ p { margin: 1em 0; }
 
 a         { color: #0a0; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #4a4; }
 
 /*****************************************************************************/
 /*
@@ -103,10 +107,6 @@ ul.posts span {
   margin-right: 3em;
 }
 
-.site .footer .contact a {
-  color: #8085C1;
-}
-
 .site .footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
@@ -130,9 +130,10 @@ ul.posts span {
 }
 
 .post pre {
-  padding: 0.5rem 0.625em;
 }
-.post code {
+pre code {
+  padding: 0.5rem 0.625em;
+  font-size: 80%;
 }
 
 .post pre code {

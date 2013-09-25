@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: pldn.io
 ---
 
 # All your front–end dependencies via one script tag. Minified, concatenated and cached.</h1>
@@ -38,12 +38,12 @@ You can even specify a specific version!
 <script src="//js.pldn.io/jquery@1.9.1"></script>
 ```
 
-### Who should use this?
+## Who should use this?
 
 People who's sites have a small set of dependencies, and who don't have the resources or specialist knowledge, or time, to do the right thing with concatenation, minification, caching and delivery.
 
-  <!-- <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul> -->
+<!-- <ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul> -->
